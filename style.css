@@ -1,0 +1,68 @@
+/* This is a CSS comment */
+/* Select the HTML element with the tag name 'body' */
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f0f0f0;
+	color: #333;
+	margin: 0;
+	padding: 0;
+}
+
+/* Select all the 'h1' elements */
+h1 {
+	font-size: 36px;
+	color: #0066cc;
+}
+
+/* Select all the 'p' elements inside a 'div' element with the class 'content' */
+div.content p {
+	line-height: 1.6;
+}
+
+/* Select all the links (anchor tags) */
+a {
+	color: #ff6600;
+	text-decoration: none;
+}
+
+/* Add an underline to links when hovered over */
+a:hover {
+	text-decoration: underline;
+}
+
+/* Select all the elements with the class 'button' */
+.button {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #0066cc;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+/* Add some styling when a button is hovered over */
+.button:hover {
+	background-color: #0052a3;
+}
+
+/* Select all the elements with the class 'container' */
+.container {
+	width: 80%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+/* Select the element with the ID 'header' */
+#header {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+}
+
+/* Select all the elements with the class 'footer' */
+.footer {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
